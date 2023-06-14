@@ -44,17 +44,35 @@ main {
     width:320px;
     height: 550px;
     /* max-width: 300px; */
-
-
 }
 
-.leftcard h4:first-of-type {
+.numbers {
+    box-sizing: border-box;
+    border: 2px solid #ffffffd9;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:3px;
+    background-color:#BEE2FC;
+    color: black;
+}
+
+/* .leftcard h4:first-of-type {
     margin-top: 28px;
+} */
+
+.leftcard #margin {
+    margin-top: 32px;
+}
+
+div span {
+    margin: 0 10px;
 }
 
 .leftcard h4 {
     color: #A8ACFF;
-    padding-left: 48px;
+    padding-left: 51px;
     text-transform: uppercase;
     letter-spacing:1px;
     font-size: smaller;
@@ -63,8 +81,8 @@ main {
 
 .leftcard h3 {
     /* color: #F7F5FF; */
-    color: rgba(255, 255, 255, 0.85);
-    padding-left: 48px;
+    color: #ffffffd9;
+    padding-left: 51px;
     text-transform: uppercase;
     letter-spacing:1.5px;
     font-size: 14px;
@@ -74,7 +92,7 @@ main {
 .leftcard img {
     position:absolute;
     padding: 0;
-    margin-top: 35.5px;
+    margin-top: 31.5px;
     margin-left:-26px ;
     width: 272px;
     border-radius: 12px;
