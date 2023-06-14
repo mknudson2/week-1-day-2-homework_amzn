@@ -5,12 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <main>
-        
+        <section class="maincard">
+            <div class="leftcard">
+                <h4>step 1</h4>
+                <h3>your info</h3><br>
+                <h4>step 2</h4>
+                <h3>select plan</h3><br>
+                <h4>step 3</h4>
+                <h3>add-ons</h3><br>
+                <h4>step 4</h4>
+                <h3>summary</h3>
+                <img src="./graphic.png">
+            </div>
+            <div class="infocard">
+                <!--this will have a heading, subheading, form, and a button-->
+                <h1>Personal Info</h1><br>
+                <h3>Please provide your name, email address, and phone number</h3>
+                <form>
+                    <label class="label" for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="e.g. Stephen King"><br>
+                    <label class="label" for="email">Email Address</label><br>
+                    <input type="text" id="email" name="email" placeholder="e.g. stephenking@lorem.com"><br>
+                    <label class="label" for="phone">Phone Number</label><br>
+                    <input type="text" id="phone" name="phone" placeholder="e.g. +1 234 567 890">
+                </form>
+                <p class="button">Next Step</p>
+            </div>
+
+        </section>
+
     </main>
 </body>
 
